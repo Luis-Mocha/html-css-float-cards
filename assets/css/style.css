@@ -1,0 +1,21 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN */
+main {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+
+    padding: 10px;
+}
+main * {
+    margin: 30px 0;
+}
+
+h1 {
+    color: rgba(229,51,112,255);  
+}
