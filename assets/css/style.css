@@ -15,12 +15,11 @@
 main {
     font-family: 'Fredoka', sans-serif;
     text-align: center;
+    padding: 10px;
     max-width: 80%;
     margin: auto;
-
-    padding: 10px;
 }
-main * {
+main > * {
     margin: 30px 0;
 }
 
@@ -29,3 +28,14 @@ h1 {
     font-weight:700;
     font-size: 50px;
 }
+
+/* Single card */
+.card {
+    background-color: black;
+    color: white;
+    margin: 20px 5px;
+    width: calc(100% / 3 - 10px);
+
+    float: left;
+}
+/* color: rgba(100,179,203,255) */
