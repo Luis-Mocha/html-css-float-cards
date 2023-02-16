@@ -14,7 +14,7 @@
 /* MAIN */
 main {
     font-family: 'Fredoka', sans-serif;
-    padding: 10px;
+    padding: 0px;
     max-width: 80%;
     margin: auto;
 }
@@ -38,16 +38,29 @@ p {
     color: white;
     margin: 20px 15px;
     width: calc(100% / 3 - 30px);
+    height: 100px;
 
     float: left;
 }
 
 .card img {
-    height: 80px;
+    max-height: 100%;
     float: left;
 }
 
-a[href="mailto:"] {
-    color: rgba(100,179,203,255)
+.info {
+    float: left;
+}
+.info > div {
+    margin: 10px 15px;
 }
 
+.info .name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a[href="mailto:"] {
+    color: rgba(100,179,203,255);
+    text-decoration: none;
+}
